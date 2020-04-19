@@ -1,0 +1,28 @@
+.container {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    padding: 0 0 5px 40px;
+    font-size: 40px;
+}
+.container-inferior {
+    display: flex;
+    justify-content: space-around;
+}
+.texto {
+    padding: 48px 0 5px 40px;
+    text-align: left;
+    width: 540px;
+}
+.inferior-um,
+.inferior-dois{
+    /* width: 480px; */
+}
+ul li{
+    width: 420px;
+}
+.border {
+    border: solid 3px #000;
+}
